@@ -1,11 +1,12 @@
 # Simple OpenMP Experiment
 Use for parallel programming is identical operations on large arrays of numbers.
 
+## Performance
 ### 1 Thread:
 Peak Performance = 170.53 Mega-Multiplies/Sec \
 Avg. Performance = 168.3 Mega-Multiplies/Sec
 
-### 2 Thread:
+### 4 Thread:
 Peak Performance = 638.10 Mega-Multiplies/Sec \
 Avg. Performance = 595.5 Mega-Multiplies/Sec
 
