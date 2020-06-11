@@ -1,7 +1,7 @@
 # OpenMP: Numeric Integration
 TUsing OpenMP, compute the super quadric’s total volume by using the given Height function. Super quadric whose equation is x^N+ y^N + z^N = 1. In this assignment, I use parallel reduction to compute the volume of a super quadric using N=4.The tiles in the middle of the floor are full-sized tiles. Tiles along the edges are half-sized. Tiles in the corners are quarter-sized. The volume contribution of each extruded height tile needs to be weighted accordingly. NUMNODES means that there are 4 dots on each side edge.
 
-<p align="center"><img width=99.9% src="https://github.com/sasmazonur/Parallel-Computing/blob/master/OpenMP%20Numeric%20integration%20/images/fig1.png"></p>
+<p align="center"><img width=90.9% src="https://github.com/sasmazonur/Parallel-Computing/blob/master/OpenMP%20Numeric%20integration%20/images/fig1.png"></p>
 
 Figure 1. A laser is pointed at a circle (circle, in this case). The circle is defined by a center point (xc,yc) and a radius (r). The beam comes out at a 30° angle. It bounces off the circle. Underneath, even with the laser origin, is an infinite plate.
 
@@ -17,7 +17,7 @@ Figure 1. A laser is pointed at a circle (circle, in this case). The circle is d
 ### Performance Graph
 <p align="center"><img width=90.5% src="https://github.com/sasmazonur/Parallel-Computing/blob/master/OpenMP%20Numeric%20integration%20/images/Graph1.png"></p>
 
-<p align="center"><img width=95.5% src="https://github.com/sasmazonur/Parallel-Computing/blob/master/OpenMP%20Numeric%20integration%20/images/Graph2.png"></p>
+<p align="center"><img width=90.5% src="https://github.com/sasmazonur/Parallel-Computing/blob/master/OpenMP%20Numeric%20integration%20/images/Graph2.png"></p>
 
 ### Findings:
 The best performance achieved at 1024 Nodes with 8 threads. As the number of threads increases, execution time decreases leading to overall performance increase. As we can see the graph above, there is a dramatic increase in 1024 nodes, when we compare 1 thread and 8 threads. From Amdahl's law it follows naturally, that the parallizable part can be executed faster by using more threads. \
