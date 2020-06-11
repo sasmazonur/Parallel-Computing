@@ -1,6 +1,11 @@
 # OpenMP: Monte Carlo Simulation
 This project is to test array multiplication/reduction using SIMD and non-SIMD
 
+### Performance Graph:
+<p align="center"><img width=95.5% src="https://github.com/sasmazonur/Parallel-Computing/blob/master/Vectorized%20Array%20Multiplication%20and%20Reduction%20using%20SSE/images/Picture1.png"></p>
+
+<p align="center"><img width=95.5% src="https://github.com/sasmazonur/Parallel-Computing/blob/master/Vectorized%20Array%20Multiplication%20and%20Reduction%20using%20SSE/images/Picture2.png"></p>
+
 ### Data Obtained:
 |    ArraySize   |   SIMD   |   NORMAL   |   maxMultSIMD   |   maxMultNORMAL   |
 |----------------|----------|------------|-----------------|-------------------|
@@ -16,12 +21,7 @@ This project is to test array multiplication/reduction using SIMD and non-SIMD
 |   8000000      |   2.51   |   0.4      |   955.47        |   380.52          |
 
 
-### Performance Graph
-<p align="center"><img width=95.5% src="https://github.com/sasmazonur/Parallel-Computing/blob/master/Vectorized%20Array%20Multiplication%20and%20Reduction%20using%20SSE/images/Picture1.png"></p>
-
-<p align="center"><img width=95.5% src="https://github.com/sasmazonur/Parallel-Computing/blob/master/Vectorized%20Array%20Multiplication%20and%20Reduction%20using%20SSE/images/Picture2.png"></p>
-
-### What patterns are you seeing in the speedups?
+#### What patterns are you seeing in the speedups?
 For this assignment I used array size between 1000 to 8M. As we can see from graph above speed up is likely to get drop as array size bigger. Its due to temporal cash problem. Where we only using values once, it is possible that speedup multiplication gets head of the ability bring memory from cash. Also, as we can see the speedup get consistent after array size exceed 6M.
 
 
