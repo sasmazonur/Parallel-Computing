@@ -30,6 +30,7 @@ S = 7.87
 Fp = (8/7)*( 1- (1 / 7.87) ); \
 Fp = 0.9976
 
+### How to Run:
 To run on Server:
 ./run_bash_server.sh
 
