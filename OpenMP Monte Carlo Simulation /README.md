@@ -1,7 +1,7 @@
 # OpenMP: Monte Carlo Simulation
 This project, will take a scenario and develop a Monte Carlo simulation of it, determining how likely a particular output is to happen. Monte Carlo is used to determine the range of outcomes for a series of parameters, each of which has a probability distribution showing how likely each option is to happen.
 
-<p align="center"><img width=20.5% src="https://github.com/sasmazonur/Parallel-Computing/blob/master/OpenMP%20Monte%20Carlo%20Simulation%20/images/MonteCarloLaser.jpg"></p>
+<p align="center"><img width=90.5% src="https://github.com/sasmazonur/Parallel-Computing/blob/master/OpenMP%20Monte%20Carlo%20Simulation%20/images/MonteCarloLaser.jpg"></p>
 
 Figure 1. A laser is pointed at a circle (circle, in this case). The circle is defined by a center point (xc,yc) and a radius (r). The beam comes out at a 30° angle. It bounces off the circle. Underneath, even with the laser origin, is an infinite plate.
 
@@ -15,9 +15,9 @@ Figure 1. A laser is pointed at a circle (circle, in this case). The circle is d
 
 
 ### Performance Graph
-<p align="center"><img width=20.5% src="https://github.com/sasmazonur/Parallel-Computing/blob/master/OpenMP%20Monte%20Carlo%20Simulation%20/images/Picture1.png"></p>
+<p align="center"><img width=90.5% src="https://github.com/sasmazonur/Parallel-Computing/blob/master/OpenMP%20Monte%20Carlo%20Simulation%20/images/Picture1.png"></p>
 
-<p align="center"><img width=20.5% src="https://github.com/sasmazonur/Parallel-Computing/blob/master/OpenMP%20Monte%20Carlo%20Simulation%20/images/Picture2.png"></p>
+<p align="center"><img width=90.5% src="https://github.com/sasmazonur/Parallel-Computing/blob/master/OpenMP%20Monte%20Carlo%20Simulation%20/images/Picture2.png"></p>
 
 ### Findings:
 The best performance achieved at 100000 Trials with 8 threads. The probability that the beam hits the plate is 0.13.
